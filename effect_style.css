@@ -18,7 +18,7 @@ body {
 	margin-top: -25px;
 	margin-left: -150px;
 	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family:Poppins;
 	font-size: 2em;
 	font-weight: 600;
 	cursor: pointer;
@@ -73,13 +73,13 @@ body {
 	height: 10000px;
 	margin-left: -5000px;
 	border-radius: 100%;
-	box-shadow: 0 0 100px 100px white;
+	box-shadow: 0 0 100px 100px rgb(138, 148, 247);
 }
 
 h1 {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 30%;
 	display: block;
 	width: 500px;
 	height: 150px;
@@ -87,11 +87,12 @@ h1 {
 	margin-left: -250px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 50px;
+	font-size: 10em;
 	color: white;
 	transform: scale(0.75);
 	opacity: 0;
 }
+
 
 /* **********
 	opening
@@ -163,6 +164,37 @@ h1 {
 	animation-delay: 0s;
 	animation-iteration-count: 1;
 	animation-direction: normal;
+}
+
+              
+p{  
+	margin-top: 10px;
+	color: #f6f4e6;
+	word-break: break-word;
+  
+}
+
+ul{  
+	justify-items: center;
+	font-family: poppins;
+	margin-right: 10px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	word-break: break-word;
+	flex-wrap: wrap;
+	}
+ul li{
+	width: 250px;
+	padding: 2rem;
+	margin: 1rem;
+	background-color: #41444b;
+	border-radius: 5px;
+}
+.btn{
+	color: #ffae00;
+	background-color: #52575d;
+	margin-right: 10px;
 }
 
 /* **********
