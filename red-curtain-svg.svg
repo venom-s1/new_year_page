@@ -1,0 +1,32 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+	<title>curtain-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="0" y1="300" x2="500" y2="300">
+			<stop offset="0" stop-color="#ffffff"  />
+			<stop offset=".1" stop-color="#9d9d9c"  />
+			<stop offset=".1" stop-color="#ffffff"  />
+			<stop offset=".2" stop-color="#9d9d9c"  />
+			<stop offset=".3" stop-color="#ffffff"  />
+			<stop offset=".4" stop-color="#ffffff"  />
+			<stop offset=".4" stop-color="#9d9d9c"  />
+			<stop offset=".4" stop-color="#ffffff"  />
+			<stop offset=".5" stop-color="#ffffff"  />
+			<stop offset=".6" stop-color="#9d9d9c"  />
+			<stop offset=".6" stop-color="#ffffff"  />
+			<stop offset=".7" stop-color="#9d9d9c"  />
+			<stop offset=".9" stop-color="#ffffff"  />
+			<stop offset=".9" stop-color="#9d9d9c"  />
+			<stop offset=".9" stop-color="#ffffff"  />
+			<stop offset="1" stop-color="#9d9d9c"  />
+		</linearGradient>
+		<image  width="500" height="600" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAJYAQMAAACuLobBAAAAAXNSR0IB2cksfwAAAANQTFRF0CIuUZdDBQAAADxJREFUeJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADApwGWAAAB+o8yUwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: url(#grd1) } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0 0h500v600h-500v-600z" />
+		<use id="Layer" style="mix-blend-mode: multiply" href="#img1" x="0" y="0" />
+	</g>
+</svg>
